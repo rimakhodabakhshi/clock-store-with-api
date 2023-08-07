@@ -28,3 +28,13 @@
 .container span {
     color: #b9b4b4;
 }
+
+@media (max-width: 990px){
+ 
+    .container {
+        width: 940 px;
+        
+
+    }   
+}
+

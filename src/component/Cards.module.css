@@ -4,3 +4,39 @@
     align-items: center;
     margin: 60px 0 60px;
 }
+
+@media (max-width: 990px){
+    
+    .container {
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        
+    }
+} 
+
+
+
+@media (max-width: 750px){
+ 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 60%;
+        padding-left: 300px;
+        
+
+    }   
+}
+@media (max-width: 655px){
+ 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 60%;
+        padding-left: 400px;
+        
+
+    }   
+}

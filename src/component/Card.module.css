@@ -1,6 +1,6 @@
 .container {
    margin: 10px;
-   width: 300px;
+   width: 340px;
    height: 570px;
    background-color: #ececec;
    border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 
 .container img {
-    width: 300px;
+    width: 340px;
     height: 300px;
 }
 
@@ -53,3 +53,29 @@
 .deactive {
     opacity: 0.3;
 }
+
+
+
+
+@media (max-width: 990px){
+    .container {
+        margin: 10px;
+        width: 340px;
+        height: 570px;
+        background-color: #ececec;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 5px 5px 10px rgb(189, 189, 189);
+    }
+
+    .counter span {
+        width: 10px;
+        
+    }
+    
+}
+
+
+
+
+

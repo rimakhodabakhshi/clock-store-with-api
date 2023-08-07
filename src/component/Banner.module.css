@@ -28,3 +28,45 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
+
+
+
+
+
+
+@media (max-width: 990px){
+
+       
+        .img {
+            width: 1290px;
+            
+        }
+       
+        .textContainer {
+            position: absolute;
+            top: 270px;
+            right: -70px;
+    
+        }
+     
+        .textContainer h1 {
+            font-size:4rem ;
+        }
+    
+        .container p {
+            font-size: 1.5rem;
+            
+        }
+    
+}
+
+@media (max-width: 310px){
+ 
+    .img {
+        width: 1240px;
+        
+    }    
+}
+
+
+    
